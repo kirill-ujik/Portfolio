@@ -4,6 +4,11 @@ body {
     overflow: hidden;
 }
 
+body.button-hover .cursor-glow {
+    opacity: 0;
+    visibility: hidden;
+}
+
 .cursor-glow {
     position: fixed;
     width: 150px;
@@ -22,7 +27,7 @@ body {
 
 button{
     border-radius: 15px;
-    size:300px;
+    size: 700px;
     background-color: rgba(0, 170, 255, 0.6) 0%;
     box-shadow: 0 0 10px rgba(0, 170, 255, 0.6), 0 0 20px rgba(0, 170, 255, 0.4), 0 0 30px rgba(0, 170, 255, 0.2);
     position: absolute;
@@ -32,5 +37,5 @@ button{
 }
 
 button:hover{
-    transform: scale(1.2);
+    transform: scale(1.5);
 }
