@@ -19,3 +19,9 @@ body {
     z-index: 9999;
     transition: transform 0.01s linear;
 }
+
+button{
+    border-radius: 15px;
+    colour: 0, 170, 255, 0.6;
+    position: center;
+}
