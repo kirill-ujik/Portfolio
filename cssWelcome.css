@@ -44,8 +44,8 @@ button{
 
 button:hover{
     transform: translate(-50%, -50%) scale(1.5);
-    background-color: rgba(0, 170, 255, 0.6);
-    color: blas;
+    background-color: rgba(76, 19, 83, 0.781);
+    color: black;
     box-shadow: 0 0 40px rgba(153, 0, 255, 0.6), 0 0 20px rgba(85, 2, 105, 0.4), 0 0 30px rgba(49, 1, 68, 0.2);
     transform-origin: center;
 }
