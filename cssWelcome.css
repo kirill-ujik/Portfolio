@@ -27,7 +27,8 @@ body.button-hover .cursor-glow {
 
 button{
     border-radius: 15px;
-    size: 700px;
+    width: 300px;
+    height: 500px;
     background-color: #111;
     color:White;
     border: 2px solid rgba(0, 170, 255, 0.6);
