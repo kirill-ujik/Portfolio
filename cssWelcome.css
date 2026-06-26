@@ -6,16 +6,16 @@ body {
 
 .cursor-glow {
     position: fixed;
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     background: radial-gradient(circle,
         rgba(0, 170, 255, 0.6) 0%,
         rgba(0, 170, 255, 0.2) 40%,
-        transparent 70%);
+        transparent 60%);
     pointer-events: none;
-    transform: translate(-50%, -50%);
-    filter: blur(30px);
+    transform: translate(-40%, -50%);
+    filter: blur(40px);
     z-index: 9999;
-    transition: transform 0.05s linear;
+    transition: transform 0.01s linear;
 }
