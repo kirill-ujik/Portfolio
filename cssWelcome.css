@@ -27,8 +27,8 @@ body.button-hover .cursor-glow {
 
 button{
     border-radius: 15px;
-    width: 300px;
-    height: 500px;
+    width: 150px;
+    height: 300px;
     background-color: #111;
     color:White;
     border: 2px solid rgba(0, 170, 255, 0.6);
@@ -36,11 +36,14 @@ button{
     position: absolute;
     top: 50%;
     left: 50%;
+    font-size: 30px;
+    font-weight: bold;
     transition: transform 0.3s ease;
 }
 
 button:hover{
     transform: scale(1.5);
     background-color: rgba(0, 170, 255, 0.6) 0%;
+    color: white;
     color:black;
 }
