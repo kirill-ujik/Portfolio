@@ -27,15 +27,15 @@ body.button-hover .cursor-glow {
 
 button{
     border-radius: 15px;
-    width: 150px;
-    height: 300px;
+    width: 300px;
+    height: 150px;
     background-color: #111;
     color:White;
     border: 2px solid rgba(0, 170, 255, 0.6);
     box-shadow: 0 0 10px rgba(0, 170, 255, 0.6), 0 0 20px rgba(4, 0, 5, 0.4), 0 0 30px rgba(0, 170, 255, 0.2);
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 80%;
     font-size: 30px;
     font-weight: bold;
     transition: transform 0.3s ease;
@@ -45,5 +45,5 @@ button:hover{
     transform: scale(1.5);
     background-color: rgba(0, 170, 255, 0.6) 0%;
     color: white;
-    color:black;
+    box-shadow: 0 0 40px rgba(0, 170, 255, 0.6), 0 0 20px rgba(4, 0, 5, 0.4), 0 0 30px rgba(0, 170, 255, 0.2);
 }
